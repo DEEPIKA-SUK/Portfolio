@@ -11,6 +11,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+}
 /* Custom ScrollBar */
 
 ::-webkit-scrollbar {
@@ -246,6 +249,16 @@ html {
   font-weight: bold;
 }
 @media (max-width:768px) {
+  .img1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .img1 img:hover{
+    height: 255px;
+    width: 255px;
+    cursor: pointer;
+  }
    #skill .card{
      padding-left: 35%;
   }
